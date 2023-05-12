@@ -1,0 +1,52 @@
+Section 1. INTRODUCTION
+Purpose:
+	A reservation or airline management system is designed to be programmed for the aircraft operations, ticketing, and confirmation systems of an airline corporation. The app offers alternatives for seeing several flights that are available within various timings for a certain day. Allowing guests to easily book tickets within the facility Customers have the option to change or cancel their tickets at any time. Prepare in accordance with a function and policies. The program should provide a feature to check the tickets' availability. It is critical that clients receive notification if their tickets are unavailable. That will be shown to the clients. When a modification has been made or if there are any more changes, the customers should be informed.
+Scope
+	An application that is kept on the user server is the website for airline reservations. The website's goal is to persuade the client to let visitors conduct actions connected to airline travel bookings. The system makes it possible to carry out the following tasks: 
+⦁	Flight operations automation 
+⦁	Automated ticketing and seat reservations
+⦁	Automated cancellation, and improved and optimized service.
+Overview
+The subsequent sections of this paper include a broad description of the product, its hardware, and its functional and non-functional needs, as well as information on the characteristics of its users.
+ 
+
+Section 2. 
+General Description:
+Product Perspective
+	The "ARS" software is a stand-alone program. It is an independent product. The following definitions apply to the hardware interfaces, user interfaces, and system interfaces associated with this software.
+User Characteristics:
+User information such as Name, Address, and Age Related to credit card information and accrued flight miles. Flight characteristics such as the departure and arrival cities, the departure and arrival times, the miles, and the flight number. Flight Seat characteristics such as reserved, flight, and seat number identification Flight number associated with
+Section 3. 
+Requirements:
+Functional Requirements
+⦁	System users may view flight schedules, departure times, seat availability, arrival times, and other travel information.
+⦁	Customers can change their travel plans and reservations.
+⦁	Customers should be able to search for flights for a given date and source/destination airport.
+⦁	Customers should be able to reserve a ticket for any scheduled flight. Customers can also build a multi-flight itinerary.
+⦁	Users of the system can check flight schedules, their departure time, available seats, arrival time, and other flight details.
+⦁	Customers can make reservations for multiple passengers under one itinerary.
+⦁	Only the admin of the system can add new airplane, flights, and flight schedules. Admin can cancel any pre-scheduled flight (all stakeholders will be notified).
+⦁	Customers can cancel their reservation and itinerary.
+⦁	The system should be able to handle the assignment of pilots and crew members to flights.
+⦁	The system should be able to handle payments for reservations.
+⦁	The system should be able to send notifications to customers whenever a reservation is made/modified or there is an update for their flights.
+Design Constraints
+Standard Compliances This outlines the requirements that the system must adhere to. The report structure and accounting characteristics may be included in the standards. Hardware Restrictions The types of machines that may be utilized, operating systems that are supported by the system, supported languages, and restrictions on primary and secondary storage are all examples of hardware restrictions. Reliability and Tolerance for Error The necessity for fault tolerance may impose limitations on the system's architecture. Recovery criteria are frequently a crucial component of this, outlining what the system should do in the event of a failure to maintain particular features. For sensitive applications, reliability requirements are highly significant. The need of security requirements is especially important for database and defense systems.
+ 
+Attributes:
+Availability:
+The system ought to be accessible at all times through a web browser, with the sole exception being downtime for the server on which it is hosted. A user-friendly system that is accessible to people all around the world should be available around-the-clock. A substitute page will be displayed in the event of hardware malfunction or database corruption. The organizer should retrieve and save database backups from the server in case of hardware failure or database corruption. After that, the service will restart. It denotes availability every single day.
+Security:
+After a certain amount of inactivity, the system must automatically log out all customers. The system shouldn't save any cookies revealing the user's password on the customer's machine. Only authorized management shall have access to the system's back-end servers.
+Maintainability:
+Re-initialization of the system will be done. Also, the software design is being done with modularity in mind so that maintainability can be done efficiently.
+Other Requirements
+Software development must first support any window-based operating system with DOS capability. Windows 7 or later is necessary. The system must be linked via LAN, and an internet connection is required.
+⦁	Security
+⦁	Portability
+⦁	Correctness
+⦁	Efficiency
+⦁	Flexibility
+⦁	Testability
+⦁	Reusability
+ 
